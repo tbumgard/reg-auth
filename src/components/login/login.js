@@ -2,7 +2,7 @@ import MyButton from "./MyButton";
 import NameInputField from "./NameInputField";
 import PasswordInputField from "./PasswordInputField";
 
-function Rovert() {
+function Login() {
     return (
         <div>
             <h1>Welcome to Rovert's App!</h1>
@@ -13,4 +13,4 @@ function Rovert() {
     );
 }
 
-export default Rovert;
+export default Login;

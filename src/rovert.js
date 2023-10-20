@@ -1,30 +1,6 @@
-function MyButton() {
-    return (
-        <div>
-            <button>
-                CLICK ME IF YOU THINK WORKEY IS A MORON!!!!
-            </button>
-        </div>
-    );
-}
-
-function NameInputField(){
-    return (
-        <div>
-            <label>Username:</label>
-            <input type="text" id="username"/>
-        </div>
-    )
-}
-
-function PasswordInputField(){
-    return (
-        <div>
-            <label>Password:</label>
-            <input type="password" id="password"/>
-        </div>
-    )
-}
+import MyButton from "./MyButton";
+import NameInputField from "./NameInputField";
+import PasswordInputField from "./PasswordInputField";
 
 function Rovert() {
     return (

@@ -2,7 +2,7 @@ function MyButton() {
     return (
         <div>
             <button>
-                This is a button CLICK IT!
+                CLICK ME IF YOU THINK WORKEY IS A RETARD!!!!
             </button>
         </div>
     );

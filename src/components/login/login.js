@@ -1,4 +1,5 @@
-import MyButton from "./MyButton";
+import LoginButton from "./LoginButton";
+import RegisterButton from "./RegisterButton";
 import NameInputField from "./NameInputField";
 import PasswordInputField from "./PasswordInputField";
 
@@ -8,7 +9,7 @@ function Login() {
             <h1>Welcome to Rovert's App!</h1>
             <NameInputField/>
             <PasswordInputField/>
-            <MyButton/>
+            <LoginButton/><RegisterButton/>
         </div>
     );
 }
